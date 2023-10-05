@@ -1,0 +1,901 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    color: white;
+   
+
+}
+@font-face {
+    font-family: openai ;
+    src: url("Front end images/open ai images/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+    font-family: header;
+    src: url("Front end images/open ai images/Lora/Lora-VariableFont_wght.ttf");
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.videocontainer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    linear-gradient:rgb(0, 0, 0) 50%, rgb(255, 255, 255) 50%;
+}
+.overlay img{
+    position: relative;
+    top: 20px;
+    left: 45px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   float: left;
+
+    color: #fff; /
+    text-align: centre;
+}
+.overlay h2{
+    position: relative;
+    top: 20px;
+    left: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   float: left;
+   
+    color: #fff; 
+    text-align: centre;
+}
+/*--------------------------------------------------------Dropdown 1-------------------------------------------------------*/
+.dropdown{
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    top: 25px;
+    left: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   float: left;
+   padding: 5px 10px;
+   font-size: larger;
+   
+    color: #fff; 
+    text-align: centre;
+
+}
+.dropdown button{
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+
+}
+.dropdown a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    min min-width: 100px;
+
+
+
+}
+.dropdown:hover .content{
+    display: block;
+
+}
+/*--------------------------------------------------------Dropdown 2-----------------------------------------------------*/
+.dropdowntwo{
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    top: 25px;
+    left: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   float: left;
+   padding: 5px 10px;
+   font-size: larger;
+   
+    color: #fff; 
+    text-align: centre;
+
+}
+.dropdowntwo button{
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+
+}
+.dropdowntwo a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+.dropdowntwo .contenttwo{
+    display: none;
+    position: absolute;
+    min min-width: 100px;
+
+
+
+}
+.dropdowntwo:hover .contenttwo{
+    display: block;
+
+}
+/*--------------------------------------------------------Dropdown 3-----------------------------------------------------*/
+.dropdownthree{
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    top: 25px;
+    left: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   float: left;
+   padding: 5px 10px;
+   font-size: larger;
+   
+    color: #fff; 
+    text-align: centre;
+
+}
+.dropdownthree button{
+    background-color: transparent;
+    color: #fff;
+    dropdownfour
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+
+}
+.dropdownthree a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+.dropdownthree .contentthree{
+    display: none;
+    position: absolute;
+    min min-width: 100px;
+
+
+
+}
+.dropdownthree:hover .contentthree{
+    display: block;
+
+}
+
+ /*--------------------------------------------------------Dropdown 4-----------------------------------------------------*/
+
+ .dropdownfour{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    top: 25px;
+    left: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   float: left;
+   padding: 5px 10px;
+   font-size: larger;
+   
+    color: #fff; 
+    text-align: centre;
+
+}
+.dropdownfour button{
+    background-color: transparent;
+    color: #fff;
+    dropdownfour
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+
+}
+/*--------------------------------------------------------Dropdown 5-----------------------------------------------------*/
+.dropdownfive{
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    top: 25px;
+    left: 135px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   float: left;
+   padding: 5px 10px;
+   font-size: larger;
+   
+    color: #fff; 
+    text-align: centre;
+
+}
+.dropdownfive button{
+    background-color: transparent;
+    color: #fff;
+    dropdownfour
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+
+}
+.dropdownfive a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+
+}
+.dropdownfive .contentfive{
+    display: none;
+    position: absolute;
+    min min-width: 100px;
+
+
+
+}
+.dropdownfive:hover .contentfive{
+    display: block;
+
+}
+/*----------------------------------------------------------dropdown 6--------------------------------------------*/
+.dropdownsix{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    top: 25px;
+    left: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   float: left;
+   padding: 5px 10px;
+   font-size: larger;
+   
+    color: #fff; 
+    text-align: centre;
+
+}
+.dropdownsix button{
+    background-color: transparent;
+    color: #fff;
+    dropdownfour
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+
+}
+/*----------------------------------------------------------dropdown 7--------------------------------------------*/
+.dropdownseven{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    position: relative;
+    top: 25px;
+    left: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   float: left;
+   padding: 5px 10px;
+   font-size: larger;
+   
+    color: #fff; 
+    text-align: centre;
+
+}
+.dropdownseven button{
+    background-color: transparent;
+    color: #fff;
+    dropdownfour
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: larger;
+
+}
+/*----------------------------------------------------------dropdown 8--------------------------------------------*/
+.dropdowneight{
+    color: #fff;
+  
+    background-color: transparent;
+    position: relative;
+    top: 25px;
+    left: 370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   float: left;
+   padding: 5px 10px;
+   font-size: larger;
+   
+    color: #fff; 
+    text-align: centre;
+
+}
+.dropdowneight button{
+    background-color: transparent;
+    color: #fff;
+
+    padding: 5px 10px;
+   
+    cursor: pointer;
+    font-size: larger;
+    border-color: #fff;
+
+}
+/*----------------------------------------------------------dropdown 9--------------------------------------------*/
+.header-content {
+    font-size: 2.1rem;
+
+  
+
+    font-family: openai;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    right: 10%;
+    transform: translate(-50% -50%);
+    
+    
+    align-content: center;
+
+    font-weight: 100;
+}
+/*----------------------------------------------------------dropdown end--------------------------------------------*/
+.dropdownend{
+    color: #fff;
+  
+    background-color: transparent;
+    position: relative;
+    top: 655px;
+    right: 850px;
+    display: flex;
+    flex-direction: row;
+    
+  
+   padding: 5px 5px;
+   font-size: large;
+   
+    color: #fff; 
+    text-align: centre;
+
+}
+.dropdownend button{
+    background-color: transparent;
+    color: #fff;
+    padding: 5px 5px;
+   
+    cursor: pointer;
+    font-size: large;
+    border-color: #fff;
+
+}
+/*----------------------------------------------------------first page--------------------------------------------*/
+.firstpage{
+    width: 100%;
+    height: 35vh;
+    text-align: left;
+    font-family: openai;
+    
+
+   
+}
+aside{
+
+    position: relative;
+    left: 20px;
+    top: 45px;
+    width: 30%;
+    float: left;
+}
+section{
+    position: relative;
+    top: 45px;
+    width: 30%;
+    float: left;
+}
+article{
+    position: relative;
+    top: 45px;
+    width: 30%;
+    float: left;
+}
+/*----------------------------------------------------------second  page--------------------------------------------*/
+.secondpage{
+    margin: 0;
+    width: 100%;
+    height: 90vh;
+    border-color: rgb(138, 134, 134);
+    border-style: solid;
+    border-width: 3px 0px;
+  
+
+}
+header h2{
+    font-size: 2.9rem;
+    font-weight: 80;
+}
+
+header p{
+    position: relative;
+    left: 1330px;
+    bottom: 60px;
+    font-family: openai;
+    
+
+
+}
+/*----------------------------------------------------------image gallery--------------------------------------------*/
+.imagegallery{
+    display: inline-block;
+    margin: 10px;
+    
+
+}
+/*----------------------------------------------------------discription h3--------------------------------------------*/
+.discriptionone h3{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+.discriptiontwo h3{
+    position: relative;
+    left: 360px;
+    bottom: 90px;
+}
+.discriptionthree h3{
+    position: relative;
+    left: 710px;
+    bottom: 170px;
+}
+.discriptionfour h3{
+    position: relative;
+    left: 1070px;
+    bottom: 250px;
+}
+  /*----------------------------------------------------------discription p--------------------------------------------*/
+.discriptionone p{
+    position: relative;
+    left: 20px;
+   bottom: 20px;
+}
+.discriptiontwo p{
+    position: relative;
+    left: 360px;
+    bottom: 100px;
+}
+.discriptionthree p{
+    position: relative;
+    left: 710px;
+    bottom: 180px;
+}
+.discriptionfour p{
+    position: relative;
+    left: 1070px;
+    bottom: 260px;
+}
+  /*----------------------------------------------------------Third page--------------------------------------------*/
+.thirdpage{
+    width: 100%;
+    height: 10vh;
+
+}
+.thirdpage h1{
+    position: relative;
+    text-align: left;
+    bottom: 220px;
+    font-size: 2.9rem;
+    font-weight: 50;
+   
+
+}
+.thirdpage p{
+    position: relative;
+    bottom: 300px;
+    left: 780px; 
+    font-family: openai;
+    font-size: x-large;
+
+}
+.thirdpage h3{
+    font-family: openai;
+    position: relative;
+    bottom: 300px;
+    left: 785px;
+}
+  /*----------------------------------------------------------fourth page--------------------------------------------*/
+  .imagefourth {
+    width: 100%;
+    height: 90vh;
+   
+  }
+  .imgfourthclass{
+    margin: 0;
+   
+    padding-bottom: 100px;
+  }
+  /*----------------------------------------------------------fifth page--------------------------------------------*/
+  .fifthpage{
+    height: 110vh;
+    width: 100%;
+  }
+  .fifthpage {
+    font-weight: 400;
+    position: relative;
+    top: 600px;
+    border-color: rgb(138, 134, 134);
+    border-style: solid;
+    border-width: 3px 0px;
+   
+   
+  }
+  .fifthheader p{
+    position: relative;
+    left: 830px;
+
+    font-size: x-large;
+    bottom: 110px;
+    font-family: openai;
+    
+
+    
+    
+
+    
+  }
+  .fifthheader h2{
+    position: relative;
+    
+    font-weight: 70px;
+    bottom: 25px;
+  }
+   
+  .imagegalleryone{
+    display: inline-block;
+    margin: 15px;
+    
+   
+    
+
+}
+.discriptionfive h3{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    font-family: openai;
+}
+.discriptionsix h3{
+    position: relative;
+    left: 360px;
+    bottom: 90px;
+    font-family: openai;
+}
+.discriptionseven h3{
+    position: relative;
+    left: 710px;
+    bottom: 220px;
+    font-family: openai;
+}
+.discriptioneight h3{
+    position: relative;
+    left: 1070px;
+    bottom: 320px;
+    font-family: openai;
+    
+}
+  /*----------------------------------------------------------discription p--------------------------------------------*/
+.discriptionfive p{
+    position: relative;
+    left: 20px;
+   bottom: 20px;
+   font-family: openai;
+}
+.discriptionsix p{
+    position: relative;
+    left: 360px;
+    bottom: 100px;
+    font-family: openai;
+}
+.discriptionseven p{
+    position: relative;
+    left: 710px;
+    bottom: 220px;
+    font-family: openai;
+}
+.discriptioneight p{
+    position: relative;
+    left: 1070px;
+    bottom: 320px;
+    font-family: openai;
+}
+/*----------------------------------------------------------sixth page--------------------------------------------*/
+.sixthpage{
+    height: 110vh;
+    width: 100%;
+  }
+  .sixthpage {
+    font-weight: 400;
+    position: relative;
+    top: 600px;
+    border-color: rgb(138, 134, 134);
+    border-style: solid;
+    border-width: 3px 0px;
+   
+   
+  }
+  .sixthheader p{
+    position: relative;
+    left: 830px;
+
+   font-size: large;
+    bottom: 110px;
+    font-family: openai;
+    
+
+    
+    
+
+    
+  }
+  .sixthheader h2{
+    position: relative;
+    
+    font-weight: 70px;
+    bottom: 25px;
+  }
+   
+  .imagegallerytwo{
+    display: inline-block;
+    margin: 15px;
+    
+   
+    
+
+}
+.discriptionnine h3{
+    position: relative;
+    left: 0px;
+    bottom: 10px;
+    font-family: openai;
+}
+.discriptionten h3{
+    position: relative;
+    left: 360px;
+    bottom: 90px;
+    font-family: openai;
+}
+.discriptioneleven h3{
+    position: relative;
+    left: 730px;
+    bottom: 220px;
+    font-family: openai;
+}
+.discriptiontwelve h3{
+    position: relative;
+    left: 1095px;
+    bottom: 300px;
+    font-family: openai;
+    
+}
+  /*----------------------------------------------------------discription p--------------------------------------------*/
+.discriptionnine p{
+    position: relative;
+    left: 0px;
+   bottom: 20px;
+   font-family: openai;
+}
+.discriptionten p{
+    position: relative;
+    left: 360px;
+    bottom: 100px;
+    font-family: openai;
+}
+.discriptioneleven p{
+    position: relative;
+    left: 730px;
+    bottom: 220px;
+    font-family: openai;
+}
+.discriptiontwelve p{
+    position: relative;
+    left: 1095px;
+    bottom: 300px;
+    font-family: openai;
+}
+ /*----------------------------------------------------------seventh page--------------------------------------------*/
+ .seventhpage{
+    width: 100%;
+    height: 10vh;
+
+}
+.seventhpage h1{
+    position: relative;
+    text-align: left;
+    bottom: 220px;
+    font-size: 2.9rem;
+    font-weight: 50;
+   
+
+}
+.seventhpage p{
+    position: relative;
+    bottom: 300px;
+    left: 780px; 
+    font-family: openai;
+    font-size: x-large;
+
+}
+.seventhpage h3{
+    font-family: openai;
+    position: relative;
+    bottom: 300px;
+    left: 785px;
+}
+ /*----------------------------------------------------------eighth page--------------------------------------------*/
+ .imageeight {
+    width: 100%;
+    height: 90vh;
+   
+  }
+  .imgeightclass{
+    margin: 0;
+   
+    padding-bottom: 100px;
+  }
+   /*----------------------------------------------------------ninth page--------------------------------------------*/
+
+.ninepage{
+    width: 100%;
+    height: 190vh;
+    border-color:rgb(138, 134, 134);
+    border-style: solid;
+    border-width: 3px 0px;
+}
+.textnine{
+    width: 50%;
+}
+.textnine h1{
+    position: relative;
+   display: flex;
+   top: 520px;
+   left: 30px;
+   font-size: 3.6rem;
+   font-weight: 100;
+   
+}
+.textnine p{
+    position: relative;
+    display: flex;
+    top: 510px;
+    left: 30px;
+    font-size: large;
+
+}
+.imgnine{
+    position: relative;
+    left: 770px;
+    top: 90px;
+}
+   /*----------------------------------------------------------tenth page--------------------------------------------*/
+   .tenthpage{
+    margin-left: 20px;
+    width: 100%;
+    height: 110vh;
+    border-color:rgb(138, 134, 134);
+    border-style: solid;
+    border-width: 3px 0px;
+
+   }
+.tenthpagehead h1{
+    position: relative;
+   font-size: 4.50rem;
+   font-weight: 80;
+   bottom: 40px;
+}
+.tenthpagebutton button{
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+    font-size: xx-large;
+}
+.tenthpagebutton button:hover{
+    background-color: #fff;
+    color: black;
+}
+/*--------------------------------------------------------tenth page footer-------------------------------------------*/
+.footerleft img{
+    position: relative;
+    top: 140px;
+}
+.footerleft p{
+    position: relative;
+    left: 60px;
+    top: 60px;
+    font-size: 30px;
+}
+.footerright{
+    position: relative;
+    margin-left: 500px;
+    bottom: 0px;
+    font-size: larger;
+    
+}
+table th{
+    padding: 0px 80px;
+}
+table td{
+    position: relative;
+    left: 80px;
+}
+
+/*--------------------------------------------------------------eleventh page-------------------------------------------*/
+.eleventhpage{
+    width: 100;
+    height:40vh;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+.eleventhpage h3{
+    position: relative;
+    font-family: openai;
+    left: 20px;
+}
+.eleventhpage p{
+    position: relative;
+    left: 20px;
+    top: 0px;
+}
+.social{
+    margin-left: 220px;
+}
+.social p{
+    display: inline-block;
+    padding: 0px 10px;
+}
+  
+
+
+
